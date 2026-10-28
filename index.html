@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aaryan Pallath</title>
+<meta name="description" content="Aaryan Pallath — Computer Science and Applied Statistics at Purdue. Software projects, each measured against a baseline.">
+<meta property="og:title" content="Aaryan Pallath">
+<meta property="og:description" content="Computer Science and Applied Statistics at Purdue. I build software and measure whether it works.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2318232B'/%3E%3Crect x='7' y='18' width='5' height='7' fill='%23B9BEB4'/%3E%3Crect x='14' y='8' width='5' height='17' fill='%233FA7C4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,750&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#work">Skip to projects</a>
+
+<header class="hero">
+  <div class="hero-text">
+    <h1>Aaryan Pallath</h1>
+    <p class="lede">I build software, then measure whether it works. Most projects below were tested against a baseline; where they were, the number it had to beat sits next to the number it got.</p>
+    <nav class="links" aria-label="Contact">
+      <a href="mailto:pallathaaryan1@gmail.com">Email</a>
+      <a href="https://github.com/aaryanpallath">GitHub</a>
+      <a href="http://www.linkedin.com/in/aaryanpallatha">LinkedIn</a>
+    </nav>
+  </div>
+  <dl class="facts">
+    <div><dt>School</dt><dd>Purdue University</dd></div>
+    <div><dt>Degrees</dt><dd>BS Computer Science<br>BS Applied Statistics</dd></div>
+    <div><dt>Graduating</dt><dd>May 2028</dd></div>
+    <div><dt>Looking for</dt><dd>Summer 2027 internships in software, data and ML</dd></div>
+  </dl>
+</header>
+
+<main>
+  <section id="work" aria-labelledby="work-h">
+    <div class="section-head">
+      <h2 id="work-h">Projects</h2>
+      <div class="filters" role="group" aria-label="Filter projects by area">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="systems" aria-pressed="false">Systems</button>
+        <button type="button" data-filter="data" aria-pressed="false">Data &amp; ML</button>
+        <button type="button" data-filter="ai" aria-pressed="false">AI &amp; agents</button>
+        <button type="button" data-filter="web" aria-pressed="false">Full-stack</button>
+        <button type="button" data-filter="embedded" aria-pressed="false">Embedded &amp; signals</button>
+      </div>
+    </div>
+    <p class="key"><span class="swatch base" aria-hidden="true"></span>baseline it had to beat <span class="swatch mine" aria-hidden="true"></span>what my version measured</p>
+    <ol class="projects" id="projects" aria-live="polite"></ol>
+    <noscript><p>The project list needs JavaScript. All repositories are on <a href="https://github.com/aaryanpallath">GitHub</a>.</p></noscript>
+  </section>
+
+  <section id="experience" aria-labelledby="exp-h">
+    <h2 id="exp-h">Experience</h2>
+    <article class="role">
+      <div class="role-head">
+        <h3>Undergraduate Student Researcher, The Data Mine at Purdue</h3>
+        <p class="when">May 2026 – present</p>
+      </div>
+      <p class="client">Client: Purdue Research Foundation Office of Investments</p>
+      <ul>
+        <li>Building a centralized investment-data platform covering thousands of funds and millions in assets, saving the office roughly 10 hours of manual work per week.</li>
+        <li>Designed the relational schema and metric-mapping framework that standardizes differently named metrics (Fair Value, Market Value, NAV) across hedge fund, private equity, real estate and natural resources reports.</li>
+        <li>Built Python/FastAPI backend services and present progress weekly to the Office of Investments, working in a 30+ person group of student developers and investment staff.</li>
+        <li>Lead the front-end team building the office's React dashboard: portfolio KPIs, performance time series, returns and asset allocation.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <div class="role-head">
+        <h3>Web Developer, Reviva Medical Esthetics &amp; Infusion Center</h3>
+        <p class="when">January 2026 – present</p>
+      </div>
+      <ul>
+        <li>Designed and built the business's production website (<a href="http://revivameds.com">revivameds.com</a>), which draws about 200 visits a month.</li>
+        <li>Integrated an online booking platform that handles about 10 bookings a month.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="skills" aria-labelledby="skills-h">
+    <h2 id="skills-h">Tools I use</h2>
+    <dl class="skills">
+      <div><dt>Languages</dt><dd>Python, Java, C, C++, Go, Rust, TypeScript, JavaScript, SQL, OCaml, Bash</dd></div>
+      <div><dt>Backend &amp; web</dt><dd>FastAPI, Spring Boot, Node.js, Fastify, React, Next.js</dd></div>
+      <div><dt>Data &amp; ML</dt><dd>PostgreSQL, DuckDB, SQLite, MongoDB, pandas, NumPy, scikit-learn, PyTorch</dd></div>
+      <div><dt>Infrastructure</dt><dd>Docker, AWS (ECS, Lambda, S3, CDK), GitHub Actions, Linux</dd></div>
+      <div><dt>Coursework</dt><dd>Data Structures &amp; Algorithms, Computer Architecture, Programming in C, Object-Oriented Programming</dd></div>
+    </dl>
+  </section>
+</main>
+
+<footer>
+  <p>Reach me at <a href="mailto:pallathaaryan1@gmail.com">pallathaaryan1@gmail.com</a>.</p>
+  <p class="fine">The projects were built with AI coding tools (Claude Code); each repository's README says so and links the data behind every number. This site was too.</p>
+</footer>
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
